@@ -1,0 +1,17 @@
+# requirements.txt
+# Dependências para PDF Processor V2
+# Atualizado para NumPy 2.x com OpenCV 4.10+
+
+# Core processing
+numpy==2.4.1
+Pillow==10.0.0
+opencv-python==4.10.0.84
+
+# PDF manipulation
+PyMuPDF==1.24.1
+
+# PDF generation (img2pdf com versão compatível)
+img2pdf==1.4.11
+
+# Opcional
+matplotlib==3.9.0
